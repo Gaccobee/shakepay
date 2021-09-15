@@ -1,0 +1,16 @@
+.dialog {
+    position: absolute;
+    padding: 16px;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+    background-color: white;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
